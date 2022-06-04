@@ -1,0 +1,17 @@
+<h3>{{Titulo}}</h3>
+<div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th class="text-center">IdArticuloFamilia</th>
+                <th class="text-center">Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let articulo of Items">
+                <td>{{articulo.IdArticuloFamilia}}</td>
+                <td>{{articulo.Nombre | uppercase}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
