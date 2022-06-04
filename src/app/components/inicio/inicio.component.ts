@@ -12,4 +12,6 @@ export class InicioComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  titulo = 'Pymes Demo - 2022';
+
 }
