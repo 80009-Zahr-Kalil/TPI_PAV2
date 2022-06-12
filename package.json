@@ -1,6 +1,6 @@
 {
   "name": "pymes2022",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -15,9 +15,11 @@
     "@angular/compiler": "~13.3.0",
     "@angular/core": "~13.3.0",
     "@angular/forms": "~13.3.0",
+    "@angular/localize": "13.2",
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "@ng-bootstrap/ng-bootstrap": "^11.0.1",
     "bootstrap": "4.6",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",

@@ -14,8 +14,8 @@ import {
 export class ArticulosFamiliasService {
   resourceUrl: string;
   constructor(private httpClient: HttpClient) { 
-    // this.resourceUrl = "https://pav2.azurewebsites.net/api/ArticulosFamilias/";
-    this.resourceUrl = "http://localhost:8000/articulosFamilias";
+    this.resourceUrl = "https://pav2.azurewebsites.net/api/ArticulosFamilias/";
+    // this.resourceUrl = "http://localhost:8000/articulosFamilias";
   }
 
   get() {
